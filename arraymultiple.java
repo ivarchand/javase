@@ -7,11 +7,11 @@ public class arraymultiple
 	public static void main(String[] args) 
 	{
 		int row,col,total;
-		Scanner sc =new Scanner(System.in);
+		Scanner scn =new Scanner(System.in);
 		System.out.println("Enter the row value");
-		row=sc.nextInt();
+		row = scn.nextInt();
 		System.out.println("Enter the colum value:");
-		col=sc.nextInt();
+		col = scn.nextInt();
 		int[][] tot=new int[row][col];
 		for (int i = 1; i < row; i++) 
 		{
